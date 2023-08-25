@@ -119,3 +119,160 @@ h3{
         font-size: 23px;
     }
 }
+.quote{
+    text-align: center;
+    padding:60px 20px;
+    background-color: #4392f1;
+    color:white;
+    height:180px;
+    position:relative;
+}
+@media screen and (min-width:767px){
+    .quote{
+        height:220px;
+    }
+}
+.quote > .quoteItems{
+    max-width: 60%;
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.quoteItems p{
+    font-family:"merienda one",cursive;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.quoteItems p:before{
+    color: #EAC435;
+    content: open-quote;
+    font-size: 40px;
+    line-height: 20px;
+    margin-right: 5px;
+    vertical-align: -13px;
+}
+.quoteItems p:after{
+    color: #EAC435;
+    content: close-quote;
+    font-size: 40px;
+    line-height: 20px;
+    margin-right: 5px;
+    vertical-align: -13px;
+}
+@media screen and (max-width:766px){
+    .quoteItems p{
+        font-size: 14px;
+    }
+    .quoteItems p:before{
+        vertical-align: -12px;
+    }
+    .quoteItems p:after{
+        vertical-align: -17px;
+    }
+    .quoteItems span{
+        color:#EAC435;
+        font-size: 18px;
+    }
+}
+.popularDestinations .row .destinationItem{
+    text-align: center;
+}
+@media screen and (max-width:575px) {
+    .popularDestinations .row .destinationItem{
+        margin-bottom: 50px;
+    }
+}
+.popularDestinations .heading,.popularDestinations .subHeading{
+    font-family: "merriweather", serif;
+}
+.popularDestinations .heading{
+    font-size: 30px;
+    line-height: 35px;
+}
+.popularDestinations .subHeading{
+    font-size: 36px;
+    color:#345995;
+}
+.popularDestinations .subHeading:hover{
+    text-decoration: none;
+    color:#D7253D;
+}
+.popularDestinations .image{
+    width:100%;
+}
+@media screen and (max-width:575px) {
+    .carousel-caption h3{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:575px) {
+    .carousel-caption h3{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:575px) {
+    .carousel-caption1 h3{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:575px) {
+    .carousel-caption1 h3{
+        font-size: 40px;
+    }
+}
+.carousel-caption1{
+    margin:0;
+    color:black;
+    position: absolute;
+    top:15%;
+    left:50%;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.carousel-caption{
+    margin:0;
+    color:black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.featuredDeals .link{
+    text-align: right;
+}
+.featuredDeals a{
+    color:#000;
+}
+.featuredDeals a:hover{
+    text-decoration: none;
+    color:#D7253D;
+}
+#copyright{
+    text-align: center;
+    background-color: #345995;
+    color: white;
+    height:58px;
+    padding-top:18px;
+    font-size: 16px;
+}
+#copyright a{
+    color: white;
+    cursor: pointer;
+}
+#copyright a:hover{
+    color:#D7253D;
+    text-decoration: none;
+}
