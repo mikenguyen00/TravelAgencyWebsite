@@ -57,12 +57,13 @@ h3{
 .logo{
     font-family: "Merriweather",serif;
     font-weight: bold;
+    font-size: 20px;
 }
 .navbar-brand.logo{
     color: white;
 }
     .navbar-brand.logo:hover{
-        color:white;
+        color:yellow;
     }
 .featureImage{
     width:100%;
@@ -267,6 +268,7 @@ h3{
     height:58px;
     padding-top:18px;
     font-size: 16px;
+    margin-top:80px;
 }
 #copyright a{
     color: white;
@@ -275,4 +277,56 @@ h3{
 #copyright a:hover{
     color:#D7253D;
     text-decoration: none;
+}
+/*Deals page*/
+.featureImage.deals{
+    background-image: url(../images/p_01265699.jpg);
+}
+.lastMinuteDeals .row{
+    padding-bottom: 15px;
+    margin: 0px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #888;
+}
+.lastMinuteDeals .row.last{
+    border-width: 1px 0px 1px 0px;
+}
+.lastMinuteDeals .row:hover{
+    background-color: #BC8796;
+    color:white;
+    text-decoration: none;
+}
+@media screen and (min-width:1px) and (max-width:575px) {
+    .lastMinuteDeals .row{
+        padding:0px 15px 20px 15px;
+    }
+}
+.lastMinuteDeals div{
+    text-align: left;
+}
+.lastMinuteDeals a{
+    color:#333;
+}
+.lastMinuteDeals a:hover{
+    text-decoration: none;
+    color: white;
+}
+.lastMinuteDeals .deal:nth-child(odd){
+    background-color: #c0c0c0;
+}
+.lastMinuteDeals .deal:nth-child(even){
+    background-color: #d3d3d3;
+}
+.lastMinuteDeals .col-sm{
+    padding:15px 0px 0px 15px;
+    margin:0;
+}
+@media screen and (min-width:1px)and (max-width:575px) {
+    .lastMinuteDeals .col-sm{
+        padding:15px 15px 0px 15px;
+    }
+}
+.lastMinuteDeals .name{
+    font-weight: bolder;
 }
